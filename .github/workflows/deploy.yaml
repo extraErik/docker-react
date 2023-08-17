@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master # check your repo, your default branch might be master!
+  workflow_dispatch:
  
 jobs:
   build:
